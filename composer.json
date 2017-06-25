@@ -1,0 +1,20 @@
+{
+  "name": "florinpo/tdd-kata",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "authors": [
+    {
+      "name": "Florin Pojum",
+      "email": "florinpojum29@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
