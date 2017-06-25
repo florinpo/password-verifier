@@ -109,7 +109,7 @@ class PasswordVerifierTest extends \PHPUnit_Framework_TestCase
     /**
      * check password idea for item 8
      *
-     * item 3 never get\'s called if item 2 verification return false
+     * item 3 never gets called if item 2 verification returns false
      * if e.g. password = "PASSWORD" one lowercase condition is not satisfied thus returns false
      */
     public function check2($input) {
@@ -140,7 +140,7 @@ class PasswordVerifierTest extends \PHPUnit_Framework_TestCase
     /**
      * verify password idea for item 8
      *
-     * item 3 never get\'s called if item 2 verification return false
+     * item 3 never gets called if item 2 verification returns false
      * if e.g. password = "PASSWORD" one lowercase condition is not satisfied thus returns false
      */
     public function verify2($input) {
